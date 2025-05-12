@@ -1,8 +1,5 @@
 import { stringUtils } from './utils';
 
-console.log('String Utilities Demo:');
-console.log('---------------------');
-
 console.log('capitalize:', stringUtils.capitalize('typescript'));
 console.log('trim:', stringUtils.trim('   Hello World   '));
 console.log('repeat:', stringUtils.repeat('abc', 3));
